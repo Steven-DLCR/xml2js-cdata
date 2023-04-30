@@ -1,0 +1,50 @@
+{
+  "_id": "xml2js@0.5.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/xml2js",
+  "_phantomChildren": {},
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "sax": ">=0.6.0",
+    "xmlbuilder": "~11.0.0"
+  },
+  "deprecated": false,
+  "description": "Simple XML to JavaScript object converter.",
+  "devDependencies": {
+    "coffee-script": ">=1.10.0",
+    "coveralls": "^3.0.1",
+    "diff": ">=1.0.8",
+    "docco": ">=0.6.2",
+    "nyc": ">=2.2.1",
+    "zap": ">=0.2.9"
+  },
+  "directories": {
+    "lib": "./lib"
+  },
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "xml",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "./lib/xml2js",
+  "name": "xml2js-cdata",
+  "scripts": {
+    "build": "cake build",
+    "coverage": "nyc npm test && nyc report",
+    "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls",
+    "doc": "cake doc",
+    "test": "zap"
+  },
+  "version": "0.5.1"
+}
