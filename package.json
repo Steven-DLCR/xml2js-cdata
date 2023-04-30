@@ -32,6 +32,7 @@
   "files": [
     "lib"
   ],
+  "homepage": "https://github.com/Steven-DLCR/xml2js-cdata",
   "keywords": [
     "xml",
     "json"
@@ -39,6 +40,10 @@
   "license": "MIT",
   "main": "./lib/xml2js",
   "name": "xml2js-cdata",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Steven-DLCR/xml2js-cdata.git"
+  },
   "scripts": {
     "build": "cake build",
     "coverage": "nyc npm test && nyc report",
